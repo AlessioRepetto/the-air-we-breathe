@@ -153,22 +153,20 @@ the-air-we-breathe/
 │   │
 │   └── processed/
 │       ├── data_orig.pkl
-│       │
 │       ├── data_full.pkl
-│       │
 │       ├── day_types.pkl
-│       │
 │       ├── kmeans_model.pkl
-│       │
 │       ├── pm_vals.pkl
-│       │
 │       ├── pm_classes.pkl
-│       │
 │       ├── o3_vals.pkl
-│       │
 │       └── o3_classes.pkl
 │
 ├── images/
+│   ├── day_types.png
+│   ├── header.png
+│   ├── o_3_test.png
+│   ├── pm_2_5_test.png
+│   └── shap_analysis.png
 │
 ├── utils.py
 │
