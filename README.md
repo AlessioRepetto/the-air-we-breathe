@@ -1,6 +1,6 @@
 # The Air We Breathe
 
-**Quantile modeling and atmospheric analysis of PM2.5 and O₃ in a local Alpine–Mediterranean area**
+![Project Header](images/header.png)
 
 ---
 
