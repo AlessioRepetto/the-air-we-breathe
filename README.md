@@ -113,6 +113,9 @@ SHAP values were used to identify key drivers influencing pollutant concentratio
 * Significant temporal persistence between consecutive days
 * Good predictive accuracy across AQI classes
 
+In the picture below it is showed how the model performs against a portion of the test data
+![PM Performances](images/pm_2_5_test.png)
+
 ### O₃ dynamics
 
 * Strong seasonal dependence driven by temperature and daylight
@@ -124,6 +127,9 @@ SHAP values were used to identify key drivers influencing pollutant concentratio
 * Wind reduces particulate concentration through dispersion
 * Humidity and precipitation modify pollutant variability
 * Atmospheric circulation regimes influence pollutant accumulation patterns
+
+In the picture below it is showed how the model performs against a portion of the test data
+![O3 Performances](images/o_3_test.png)
 
 Overall, results demonstrate that pollutant dynamics are governed by structured atmospheric regimes rather than random fluctuations.
 
