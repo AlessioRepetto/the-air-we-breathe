@@ -71,6 +71,8 @@ Statistical analysis revealed:
 
 Days were grouped into distinct weather types using K-Means clustering, enabling the models to capture atmospheric regimes favoring accumulation or dispersion.
 
+![Day Types](images/day_types.png)
+
 ### Feature Engineering
 
 Features include:
