@@ -173,7 +173,7 @@ the-air-we-breathe/
 * Quantile regression modeling
 * Clustering and regime identification
 * Time series feature engineering
-* Machine learning interpretation
+* Machine learning interpretation (Shap)
 * Environmental data analysis
 
 ---
@@ -181,6 +181,7 @@ the-air-we-breathe/
 ## Author
 
 Alessio Repetto
-Data Scientist
 
 GitHub: [https://github.com/AlessioRepetto]
+
+LinkedIn: [https://www.linkedin.com/in/alessio-repetto-75baa1333/]
