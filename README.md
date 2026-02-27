@@ -104,6 +104,8 @@ Models were evaluated using:
 
 SHAP values were used to identify key drivers influencing pollutant concentrations.
 
+![SHAP Analysis](images/shap_analysis.png)
+
 ---
 
 ## Key Findings
