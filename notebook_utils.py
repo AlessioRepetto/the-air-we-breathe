@@ -74,7 +74,7 @@ EU_AQI_THRESHOLDS = {
     "o3": [
         (0, 61, "Good"),
         (61, 101, "Fair"),
-        (100, 121, "Moderate"),
+        (101, 121, "Moderate"),
         (121, 161, "Poor"),
         (161, 181, "Very Poor"),
         (181, 800, "Extremely Poor")
