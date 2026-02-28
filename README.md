@@ -167,8 +167,25 @@ the-air-we-breathe/
 │   ├── o_3_test.png
 │   ├── pm_2_5_test.png
 │   └── shap_analysis.png
+├── src/
+│   └── airq/
+│       ├── __init__.py
+│       ├── config.py
+│       ├── preprocessing.py
+│       ├── modeling.py
+│       ├── utils.py
+│       └── aqi.py
 │
-├── utils.py
+├── scripts/
+│   ├── train.py
+│   └── infer.py
+│
+├── artifacts/
+│   └── .gitkeep
+│
+├── requirements.txt
+│
+├── notebook_utils.py
 │
 └── README.md
 ```
