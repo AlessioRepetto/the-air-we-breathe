@@ -139,6 +139,37 @@ Overall, results demonstrate that pollutant dynamics are governed by structured 
 
 ---
 
+## Reusable modeling pipeline (beyond the analysis)
+
+The core of this project is the exploratory analysis, feature engineering, and model interpretation developed in the notebooks but, in addition to the analysis, the repository also includes a reusable modeling pipeline implemented in the `src/airq` package and exposed through the `scripts/` folder.
+
+This additional layer allows the trained quantile models to be:
+
+- trained directly from raw data,
+- saved as reusable artifacts,
+- applied to new data without re-running the notebooks,
+- integrated into external workflows or applications.
+
+This operational pipeline is meant as an addition to the analysis, to make the models directly usable.
+
+It reproduces the same feature engineering and model configuration developed during the analysis phase, ensuring consistency between analytical and operational use.
+
+## Requirements and dependencies
+
+The `requirements.txt` file includes dependencies for both:
+
+1. **Analytical workflows**  
+   - data exploration
+   - visualization
+   - SHAP analysis
+   - notebook-based experimentation
+
+2. **Operational modeling pipeline**
+   - CatBoost quantile regression
+   - reusable preprocessing
+   - model training and inference scripts
+   - artifact serialization and reuse
+
 ## Repository Structure
 
 ```text
