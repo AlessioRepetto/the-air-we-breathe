@@ -1,0 +1,22 @@
+# Core scientific stack
+numpy==2.1.3
+pandas==2.2.3
+scipy==1.15.3
+
+# Machine learning
+catboost==1.2.8
+scikit-learn==1.8.0
+joblib==1.5.3
+
+# File I/O
+openpyxl
+
+# Visualization (used in notebooks and analysis)
+matplotlib==3.10.0
+seaborn
+
+# Explainability (used in notebook and analysis)
+shap==0.48.0
+
+# Utilities
+tqdm
